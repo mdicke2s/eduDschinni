@@ -13,7 +13,7 @@
    - Account anlegen auf https://platform.openai.com/
    - Python Beispiel aus dem Browser als `demo.py` abspeichern
    - `python demo.py`
-   - ggf. fehlt ein Python Modul. Dann, `pip install openai`, `pip install Pillow` und erneut versuchen
+   - ggf. fehlt ein Python Modul. Dann, `pip install -r requirements.txt` und erneut versuchen
   
 # Wie funktioniert der Chat (10 Minuten)
  - Rollen

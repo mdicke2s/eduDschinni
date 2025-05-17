@@ -8,6 +8,10 @@ ASSISTANT_NAME = "Dschinni"
 
 # Zur Authentifizierung benötigt das Programm einen API key
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    print("Bitte den API Key in der Umgebungsvariable OPENAI_API_KEY setzen.")
+    exit(1)
+
 client = OpenAI(
   api_key = OPENAI_API_KEY
 )
@@ -65,7 +69,6 @@ def on_return_pressed(event):
 # Layout der Benutzeroberfläche
 root = tk.Tk()
 root.title("Chatte mit " + ASSISTANT_NAME)
-root.geometry("860x420")
 
 # Scrollbare Textbox für den Gesprächsverlauf
 chat_box = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=60, height=20, state=tk.DISABLED)
