@@ -69,7 +69,6 @@ def on_return_pressed(event):
 # Layout der Benutzeroberfläche
 root = tk.Tk()
 root.title("Chatte mit " + ASSISTANT_NAME)
-root.geometry("860x420")
 
 # Scrollbare Textbox für den Gesprächsverlauf
 chat_box = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=60, height=20, state=tk.DISABLED)
