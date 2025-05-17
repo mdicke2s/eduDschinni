@@ -8,6 +8,10 @@ ASSISTANT_NAME = "Dschinni"
 
 # Zur Authentifizierung benötigt das Programm einen API key
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    print("Bitte den API Key in der Umgebungsvariable OPENAI_API_KEY setzen.")
+    exit(1)
+
 client = OpenAI(
   api_key = OPENAI_API_KEY
 )
