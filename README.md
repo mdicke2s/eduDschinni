@@ -14,6 +14,9 @@ _Inhalt_
  - Laptops (mind. 1 je 2 Teilnehmer)
    - Python 3 und pip installieren
    - IDE (z.B. https://thonny.org/) oder Notepad mit Syntax Highlighting
+   - Abhängigkeiten
+     - https://docs.python.org/3/library/tkinter.html
+     - Module - siehe requirements.txt
  - OpenAI API key erstellen 
    <!--- TODO: Braucht man mehrere Keys? Mehrere OrgIDs?
      ein durchschnittliches Gespräch (3 Wünsche) verbraucht etwa 10.000 token
