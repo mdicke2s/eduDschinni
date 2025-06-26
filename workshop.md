@@ -42,3 +42,5 @@
  - Wie hat es euch gefallen?
  - Wie gut hat euer eingener Assistent funktioniert?
  - Was nehmt ihr aus dem Workshop mit?
+
+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
